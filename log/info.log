@@ -1,0 +1,22 @@
+Info2020/10/09 15:11:07 main.go:82: -===================  启动  程序  ================
+Info2020/10/09 15:11:07 main.go:87: -===================  启动  程序  ================
+Info2020/10/10 11:05:48 main.go:82: -===================  启动  程序  ================
+Info2020/10/10 11:28:15 create_juese_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc00001a300 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/10 11:28:43 create_yonghu_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc00001a300 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/10 13:47:56 create_caidan_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc00001a300 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/10 13:49:52 create_caidan_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc000020240 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/10 13:51:32 create_kuangchi_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc00001a300 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/10 13:51:39 create_kuangji_table_test.go:13: db----- &{0 0xc000010228 0 {0 0} [] map[] 0 0 0xc00001a300 false map[] map[] 5 50 0 0 <nil> 0 0 0 0 0x4fd9c0}
+Info2020/10/17 10:49:36 main.go:88: -===================  启动  程序  ================
+Info2020/10/17 10:57:25 main.go:45: err2--- <nil> dataobj2---- {<nil>}
+Info2020/10/17 10:59:17 main.go:89: -===================  启动  程序  ================
+Info2020/10/17 10:59:22 main.go:46: err2--- <nil> dataobj2---- {map[BiaoTi:IPFSMain全球奖励排名第一 FuWuHao:FW001 GengXin:2020-09-23 16:08:04 JianJie:北京时间9月22日上午8点，Filecoin协议实验室举办了线上Space Race Celebration。在直播中，官方技术人员围绕存储生态、太空竞赛成果、Space Race 2进行分享。 LeiXing:IPFS NeiRong:<html><body>123</body></html> ShiJian:2020-09-23 16:08:04 SuoLueTu:http://ssss.png]}
+Info2020/10/17 11:07:28 main.go:88: -===================  启动  程序  ================
+Info2020/10/17 11:07:34 main.go:45: err2--- readUint64: unexpected character: �, error found in #1 byte of ...|{
+    "FuWu|..., bigger context ...|{
+    "FuWuHao":"FW001",
+  "BiaoTi":"IPFSMain全球|... dataobj2---- invalid
+Info2020/10/17 11:11:04 main.go:87: -===================  启动  程序  ================
+Info2020/10/17 11:11:10 main.go:44: err2--- <nil> dataobj2---- map[BiaoTi:IPFSMain全球奖励排名第一 FuWuHao:FW001 GengXin:2020-09-23 16:08:04 JianJie:北京时间9月22日上午8点，Filecoin协议实验室举办了线上Space Race Celebration。在直播中，官方技术人员围绕存储生态、太空竞赛成果、Space Race 2进行分享。 LeiXing:IPFS NeiRong:<html><body>123</body></html> ShiJian:2020-09-23 16:08:04 SuoLueTu:http://ssss.png]
+Info2020/10/17 11:24:07 main.go:69: -===================  启动  程序  ================
+Info2020/10/17 11:24:13 main.go:38: err2--- <nil> dataobj2---- map[BiaoTi:IPFSMain全球奖励排名第一 FuWuHao:FW001 GengXin:2020-09-23 16:08:04 JianJie:北京时间9月22日上午8点，Filecoin协议实验室举办了线上Space Race Celebration。在直播中，官方技术人员围绕存储生态、太空竞赛成果、Space Race 2进行分享。 LeiXing:IPFS NeiRong:<html><body>123</body></html> ShiJian:2020-09-23 16:08:04 SuoLueTu:http://ssss.png]
