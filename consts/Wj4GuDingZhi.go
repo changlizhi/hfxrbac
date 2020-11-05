@@ -5,5 +5,5 @@ const (
 	ChengGong   = "ChengGong"
 	ShiBaiCN    = "失败"
 	ChengGongCN = "成功"
-	Hfxrbac    = "Hfxrbac"
+	Hfxrbac     = "Hfxrbac"
 )

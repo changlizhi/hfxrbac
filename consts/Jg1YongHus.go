@@ -1,17 +1,23 @@
 package consts
 
-const(
-	Jg1YongHu="Jg1YongHus"//用户结构
-	Yh="Yh"
-)
-const(
-	YhZhuJian=Yh+ZhuJian
-	YhMingCheng=Yh+MingCheng
-	YhMiMa=Yh+MiMa
-	YhShouJiHao=Yh+ShouJiHao
-	YhBianMa=Yh+BianMa
-	YhYouXiang=Yh+YouXiang
-	YhNiCheng=Yh+NiCheng
-	YhQianMing=Yh+QianMing
+func Jg1JianXie() string {
+	return Yh
+}
 
-)
+func Jg1BiaoMing() string {
+	return YongHu
+}
+
+func Jg1ZiDuan() []string {
+	ret := []string{
+		Yh + ZhuJian,
+		Yh + MingCheng,
+		Yh + MiMa,
+		Yh + ShouJiHao,
+		Yh + BianMa,
+		Yh + YouXiang,
+		Yh + NiCheng,
+		Yh + QianMing,
+	}
+	return ret
+}

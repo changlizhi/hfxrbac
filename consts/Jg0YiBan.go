@@ -1,16 +1,42 @@
 package consts
 
-//相同后缀的内容放这里
-const(
-ZhuJian="ZhuJian"
-MingCheng="MingCheng"
-MiMa="MiMa"
-ShouJiHao="ShouJiHao"
-BianMa="BianMa"
-YouXiang="YouXiang"
-NiCheng="NiCheng"
-QianMing="QianMing"
-JiBie="JiBie"
-LianJie="LianJie"
-ZhuBiao="ZhuBiao"
+const (
+	YongHu = "YongHu"
 )
+const (
+	Yh = "Yh"
+)
+const(
+	Jg1="Jg1"
+)
+//相同后缀的内容放这里
+const (
+	ZhuJian   = "ZhuJian"
+	MingCheng = "MingCheng"
+	MiMa      = "MiMa"
+	ShouJiHao = "ShouJiHao"
+	BianMa    = "BianMa"
+	YouXiang  = "YouXiang"
+	NiCheng   = "NiCheng"
+	QianMing  = "QianMing"
+	JiBie     = "JiBie"
+	LianJie   = "LianJie"
+	ZhuBiao   = "ZhuBiao"
+)
+
+//每个表要有一个路由，当然也有一个表结构，所有的路由是由这些表结构组成的
+//所有的数据如果只放到方法中就可以免去很多暴露到外部的麻烦，修改起来也可以更方便调整数据
+//但是既然是常量就不应该有参数控制，只能是幂等返回。
+//也就是说我现在要做的或许是整理收集所有的表和字段而不是声明这些乱七八糟的全局变量
+//只是每个表都要有一个基本的关联产生内容接口
+//有表就有一个增删改的方法，有两个查询方法，一个是查询带唯一条件的，一个是带分页的
+//由于设计表结构特别所以我这里的左外关联出表结构是必须的。
+//有了增删改查的就要提供一个接口给外界访问，这个接口中需要控制前置查询，jwt以及业务控制，字段长短等。
+//最后真实数据进入数据库，这样一来所有的违法数据都被屏蔽在dao之外了。
+//当新增一个表时，会新增一个文件，同时要用一个结构体来关联所有的表结构，只有这样才不用再在原来的文件中再次引入
+//如果迁移或者新增，那么就只要删除一个文件即可。
+//如此一来所有的可以组织的表都被放到了方法里，而所有的方法都按照一定的命名规则生成，也就是说所有的一般字段定义分词清楚之后将会得到绝大部分分词的方案
+//一个字段应该有哪些属性也是可以把每个属性单独定义成一个结构体提供一系列方法返回的。
+type Jg struct{}
+
+func BiaoLuYous() {}

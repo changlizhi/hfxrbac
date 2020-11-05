@@ -1,9 +1,8 @@
 package service
-
-import "hfxrbac/daosnews"
-
-
-func GetPageDataQueryNewsService(canShu map[string]interface{}) map[string]interface{} {
-	ret := daosnews.PageDataQueryNewsList(canShu)
-	return ret
-}
+//
+//import "hfxrbac/daosnews"
+//
+//func GetPageDataQueryNewsService(canShu interface{}) interface{} {
+//	ret := daosnews.PageDataQueryNewsList(canShu)
+//	return ret
+//}

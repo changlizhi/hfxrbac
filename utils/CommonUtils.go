@@ -3,17 +3,16 @@ package utils
 import (
 	"reflect"
 	"strings"
-
-	jsoniter "github.com/json-iterator/go"
 )
 
-func CanShuTiShi(canShu string) []byte {
-	json := jsoniter.ConfigCompatibleWithStandardLibrary
-	ret, _ := json.Marshal(map[string]interface{}{
-		"TiShi": canShu,
-	})
-	return ret
-}
+//func CanShuTiShi(canShu string) []byte {
+//	json := jsoniter.ConfigCompatibleWithStandardLibrary
+//	ret, _ := json.Marshal(interface {}{
+//		"TiShi": canShu,
+//		})
+//
+//	return ret
+//}
 func HuoQuZiFuZhi(canShu interface{}) string {
 	if canShu != nil && canShu.(string) != "" {
 		return canShu.(string)
