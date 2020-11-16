@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func (b Jg2Biaos)Jg9JueSeYeWus()string{
+func (b Jg2Biaos)Jg5JueSes()string{
 	p := make([]uintptr,1)
 	runtime.Callers(1, p)
 	f := runtime.FuncForPC(p[0])

@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func (b Jg2Biaos)Jg6JueSes()string{
+func (b Jg2Biaos)Jg7YongHuJueSes()string{
 	p := make([]uintptr,1)
 	runtime.Callers(1, p)
 	f := runtime.FuncForPC(p[0])
@@ -16,3 +16,4 @@ func (b Jg2Biaos)Jg6JueSes()string{
 	log.Println("DiaoYongZhe---",f2.Name())
 	return f.Name()
 }
+

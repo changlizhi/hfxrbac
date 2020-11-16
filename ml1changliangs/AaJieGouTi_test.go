@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestJg1(t *testing.T){
+func TestJg2Biaos(t *testing.T){
 	rt:=reflect.TypeOf(Jg2Biaos{})
 	log.Println(rt.Name(),rt.Method(0).Name)
 
